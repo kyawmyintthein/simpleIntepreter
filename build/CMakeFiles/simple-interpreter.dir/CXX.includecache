@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kyawmyintthein/projects/simpleIntepreter/interpreter.cpp
+string
+-
+interpreter.h
+/Users/kyawmyintthein/projects/simpleIntepreter/interpreter.h
+token.h
+/Users/kyawmyintthein/projects/simpleIntepreter/token.h
+
+/Users/kyawmyintthein/projects/simpleIntepreter/interpreter.h
+string
+-
+token.h
+/Users/kyawmyintthein/projects/simpleIntepreter/token.h
+
+/Users/kyawmyintthein/projects/simpleIntepreter/token.h
+string
+-
+

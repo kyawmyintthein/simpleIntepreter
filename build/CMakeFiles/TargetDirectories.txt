@@ -1,0 +1,3 @@
+/Users/kyawmyintthein/projects/simpleIntepreter/build/CMakeFiles/rebuild_cache.dir
+/Users/kyawmyintthein/projects/simpleIntepreter/build/CMakeFiles/edit_cache.dir
+/Users/kyawmyintthein/projects/simpleIntepreter/build/CMakeFiles/simple-interpreter.dir

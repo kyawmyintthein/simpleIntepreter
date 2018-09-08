@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/simple-interpreter.dir/main.cpp.o CMakeFiles/simple-interpreter.dir/interpreter.cpp.o CMakeFiles/simple-interpreter.dir/token.cpp.o  -o simple-interpreter 
