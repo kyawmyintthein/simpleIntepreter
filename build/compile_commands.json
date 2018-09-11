@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/Users/kyawmyintthein/projects/simpleIntepreter/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++    -g   -o CMakeFiles/simple-interpreter.dir/main.cpp.o -c /Users/kyawmyintthein/projects/simpleIntepreter/main.cpp",
+  "file": "/Users/kyawmyintthein/projects/simpleIntepreter/main.cpp"
+},
+{
+  "directory": "/Users/kyawmyintthein/projects/simpleIntepreter/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++    -g   -o CMakeFiles/simple-interpreter.dir/interpreter.cpp.o -c /Users/kyawmyintthein/projects/simpleIntepreter/interpreter.cpp",
+  "file": "/Users/kyawmyintthein/projects/simpleIntepreter/interpreter.cpp"
+},
+{
+  "directory": "/Users/kyawmyintthein/projects/simpleIntepreter/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++    -g   -o CMakeFiles/simple-interpreter.dir/token.cpp.o -c /Users/kyawmyintthein/projects/simpleIntepreter/token.cpp",
+  "file": "/Users/kyawmyintthein/projects/simpleIntepreter/token.cpp"
+}
+]

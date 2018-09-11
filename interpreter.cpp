@@ -18,15 +18,13 @@ int Interpreter::expr(){
     this->currentToken = this->getNextToken();
     Token* leftToken = this->currentToken;
     this->eat(INTEGER_TYPE);
-
     Token* opToken = this->currentToken;
     this->eat(PLUS_TYPE);
 
     Token* rightToken = this->currentToken;
     this->eat(INTEGER_TYPE);
-
-    int leftTokenValue = (unsigned char) leftToken->value;
-    int rightTokenValue = (unsigned char) rightToken->value;
+    int leftTokenValue = leftToken->value - '0';
+    int rightTokenValue = rightToken->value - '0';
     int result = leftTokenValue + rightTokenValue;
     return result;
 };
@@ -39,7 +37,6 @@ void Interpreter::eat(string tokenType){
     if(this->currentToken->type == tokenType){
         this->currentToken = this->getNextToken();
     }else{
-       printf("%s\n",this->currentToken->type.c_str());
         this->error();
     };
 };
